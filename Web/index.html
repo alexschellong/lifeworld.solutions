@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Umgebung.digital</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet"  type="text/css" href="TemplateData/style.css">
+    <script>
+    
+    if(window.matchMedia("(any-hover: none)").matches) {
+          
+    window.location.replace("phoneDetected.html");
+                }
+    </script>
+    
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/patched.json", {onProgress: UnityProgress});
+      
+    </script>
+    
+  </head>
+  <body>
+    <div id="custom-loader" hidden>
+      <div class="fill"></div>
+      <div class="label"></div>
+    </div>
+ 
+      <div id="unityContainer" style=" overflow: hidden;  position: absolute;right:50%; top:50%; transform:translate(50%,-50%); width:100%; height:100%;"></div>
+
+  </body>
+</html>
