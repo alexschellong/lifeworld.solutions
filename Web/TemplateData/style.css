@@ -141,14 +141,14 @@ body {
 
 @font-face {
     font-family: 'AkzidenzGrotesk';
-    src: url("/fonts/akzidenz-grotesk-light.ttf");
+    src: url("../fonts/akzidenz-grotesk-light.ttf");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AkzidenzGrotesk';
-    src: url("/fonts/Berthold Akzidenz Grotesk Medium.otf");
+    src: url("../fonts/Berthold Akzidenz Grotesk Medium.otf");
     font-weight: 500;
     font-style: normal;
 }

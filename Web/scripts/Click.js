@@ -1,6 +1,6 @@
 import { unityLoaded } from "./UnitySuccess.js";
 
-const portfolioPDF = "/TemplateData/portfolio_alex-schellong.pdf"
+const portfolioPDF = "./TemplateData/portfolio_alex-schellong.pdf"
 
 export let unityReady = false;
 
