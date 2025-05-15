@@ -143,6 +143,7 @@ if (window.matchMedia("(any-hover: none)").matches) {
           var unityInstance = UnityLoader.instantiate("unityContainer", "Build/web.json", {onProgress: UnitySuccessFunc});`
 
     const unityLoaderLoad = document.createElement('script');
+    unityLoaderLoad.defer = true;
     unityLoaderLoad.type = "module";
     unityLoaderLoad.textContent = code;
     document.body.appendChild(unityLoaderLoad);
